@@ -13,22 +13,22 @@ export default function MainRepairCards({ collection }) {
 
   let shopProducts = [
     {
-      imgUrl: '',
+      imgUrl: '/devices/iphones.png',
       title: 'Phone',
       slug: 'phone',
     },
     {
-      imgUrl: '',
+      imgUrl: '/devices/iPad_mini.png',
       title: 'Tablet',
       slug: 'tablets',
     },
     {
-      imgUrl: '',
+      imgUrl: '/devices/macbook2.png',
       title: 'Computer',
       slug: '',
     },
     {
-      imgUrl: '',
+      imgUrl: '/devices/switch.png',
       title: 'Game Console',
       slug: 'console',
     },
@@ -39,7 +39,7 @@ export default function MainRepairCards({ collection }) {
       <h2>Choose</h2>
       <div className={`${styles.homeCollection} embla__viewport`}>
         {
-          shopProducts.map((prod) => (<ProductCard product={prod} key={prod.node.id} />))
+          shopProducts.map((prod) => (<ProductCard product={prod} key={prod.title} />))
         }
       </div>
     </div>

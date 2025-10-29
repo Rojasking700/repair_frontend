@@ -13,19 +13,19 @@ export default function ProductCard({ product }) {
   return (
     <div className={styles.productCardContainer}>
       <Image
-        src={product?.node?.featuredImage?.url}
-        alt={product?.node?.featuredImage?.altText}
-        width={400}
-        height={400}
+        src={product?.imgUrl}
+        alt={product?.title}
+        width={250}
+        height={250}
         className={styles.thumbnail}
       />
       
       <div>
-        {product?.node?.title}
+        {product?.title} repair
       </div>
-      <div>
+      {/* <div>
         {priceView}
-      </div>
+      </div> */}
 
 
     </div>
