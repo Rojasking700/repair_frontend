@@ -1,0 +1,68 @@
+@use '../../variable.scss' as *;
+
+.heroContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: $border-radius;
+
+  .img {
+    position: relative;
+    border-radius: $border-radius;
+    // border: 1px solid #eee;
+    // filter: drop-shadow(0 0 5px rgba(0,0,0,.2));
+    // padding: 2px;
+  }
+
+  .titleContainer {
+    position: absolute;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    // width: 33%;
+
+    // top: 20px;
+    left: 20px;
+
+    h1 {
+      font-weight: 600;
+      font-size: 60px;
+      line-height: 1em;
+      // color: #fff;
+      // text-shadow: 0 1px 3px rgba(0, 0, 0, 1); // subtle drop shadow.
+      color: $color-deep-navy;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-weight: 500;
+      font-size: 55px;
+      line-height: 1.2em;
+      text-transform: uppercase;
+      color: $color-deep-navy;
+    }
+
+    a {
+      border-radius: $border-radius;
+      // background: linear-gradient(135deg, #2285af, #00d9ff); // blue → teal
+      background: linear-gradient(135deg, $color-aurora-blue, $color-frost-teal); // blue → teal
+
+      padding: 10px 30px;
+      color: #fff;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 1); // subtle drop shadow
+      font-size: 20px;
+      border: none;
+
+
+      // transition: all 0.3s ease;
+
+      // &:hover {
+      //   background: linear-gradient(90deg, #2563eb, #0891b2); // darker shades on hover
+      // }
+    }
+  }
+
+}

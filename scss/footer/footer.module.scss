@@ -1,0 +1,79 @@
+.FooterOuter {
+  background-color: #0B0F14;
+
+  margin-left: calc(-50vw + 50%); // stretch left
+  margin-right: calc(-50vw + 49.5%); // stretch right
+  width: 100vw; // viewport width
+  padding: 20px 0px;
+
+  .FooterInner {
+    max-width: 1800px;
+    width: 93%;
+    margin: 0px auto;
+
+    .secondContainer {
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      // justify-content: flex-start;
+      // align-items: flex-start;
+      gap: 100px;
+
+      .FooterLeft {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 50px;
+        // flex-basis: auto;
+        // gap: 20%;
+
+
+        .FooterLeftSection {
+          display: flex;
+          flex-flow: column nowrap;
+          justify-content: flex-start;
+          align-items: flex-start;
+          // flex-basis: 20%;
+          max-width: 350px;
+          min-width: 120px;
+
+          line-height: 2em;
+          margin: 10px 0px;
+
+        }
+
+        .FooterLogo {
+          margin: 10px 0px;
+        }
+
+        .SocialIcons {
+          margin: 10px 0px;
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: space-between;
+          align-items: flex-start;
+
+          .SocialIcon {
+            // #ecdece
+            //  https://codepen.io/sosuke/pen/Pjoqqp?utm_source=chatgpt.com
+            filter: invert(96%) sepia(5%) saturate(1509%) hue-rotate(319deg) brightness(101%) contrast(85%);
+          }
+        }
+      }
+    }
+
+
+  }
+
+
+  * {
+    // color: #C9D1D9;
+    color: #ecdece;
+  }
+
+  .topCommentContainer {
+    border-bottom: 1px solid #ecdece;
+  }
+}

@@ -1,0 +1,25 @@
+// 🎨 Arctic Snowboarding Theme
+
+// Primary
+$color-snow-white: #FFFFFF;   // Clean background
+$color-glacier-gray: #E5E7EB; // Soft neutral section bg
+$color-ice-blue: #D6F0FF;     // Frosty accent
+
+$border-radius: 10px;     // Frosty accent
+
+// Secondary
+$color-deep-navy: #0F172A;    // Text & headers
+$color-frost-teal: #3ABAB4;   // Hover & highlights
+
+// Accent / CTA
+$color-aurora-blue: #3B82F6;  // Buttons, links
+$color-arctic-red: #EF4444;   // Alerts, sales, warnings
+
+// Usage helpers
+$color-bg-primary: $color-snow-white;
+$color-bg-secondary: $color-glacier-gray;
+$color-text-primary: $color-deep-navy;
+$color-text-accent: $color-ice-blue;
+$color-button: $color-aurora-blue;
+$color-button-hover: $color-frost-teal;
+$color-alert: $color-arctic-red;

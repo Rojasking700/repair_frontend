@@ -1,0 +1,36 @@
+@use '../../variable.scss' as *;
+
+.page {
+  display: flex;
+  flex-flow: column nowrap;
+
+  .main {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 50;
+  }
+
+  min-height: 100svh;
+}
+
+.homeCollection { 
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 10px;
+
+  overflow-x : scroll;
+
+}
+
+.Gallery{
+  display: flex;
+  flex-flow: row nowrap;
+  overflow-x : scroll;
+
+  gap: 10px;
+  margin-bottom: 10px;
+
+  img{
+    border-radius:  $border-radius;
+  }
+}

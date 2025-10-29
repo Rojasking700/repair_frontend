@@ -1,0 +1,38 @@
+@use '../variable.scss' as *;
+
+.embla__prev {
+  background-color: $color-deep-navy;
+  padding: 20px 24px;
+  border: none;
+  border-radius: $border-radius;
+  cursor: pointer;
+}
+
+.embla__next {
+  background-color: $color-frost-teal;
+  padding: 20px 24px;
+  border: none;
+  border-radius:  $border-radius;
+  cursor: pointer;
+}
+
+.embla__dots {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0px;
+
+  .embla__dot {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: transparent;
+    border: 2px solid $color-deep-navy;
+    cursor: pointer;
+  }
+
+  .embla__dot_selected {
+    background-color: $color-frost-teal;
+  }
+}
