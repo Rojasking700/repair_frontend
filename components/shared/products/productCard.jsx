@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from '~/scss/shared/products/ProductCard.module.scss'
 
 export default function ProductCard({ product }) {
@@ -11,23 +12,25 @@ export default function ProductCard({ product }) {
   }
 
   return (
-    <div className={styles.productCardContainer}>
-      <Image
-        src={product?.imgUrl}
-        alt={product?.title}
-        width={250}
-        height={250}
-        className={styles.thumbnail}
-      />
-      
-      <div>
-        {product?.title} repair
-      </div>
-      {/* <div>
+    <Link href={`/${product.slug}`}>
+      <div className={styles.productCardContainer}>
+        <Image
+          src={product?.imgUrl}
+          alt={product?.title}
+          width={250}
+          height={250}
+          className={styles.thumbnail}
+        />
+
+        <div>
+          {product?.title} repair
+        </div>
+        {/* <div>
         {priceView}
       </div> */}
 
 
-    </div>
+      </div>
+    </Link>
   )
 }
