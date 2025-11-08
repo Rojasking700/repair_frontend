@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Contact from "~/components/pages/home/Contact";
 import FeaturedProducts from "~/components/pages/home/FeatruedProducts";
 import Gallery from "~/components/pages/home/Gallery";
 // import styles from "./page.module.css";
@@ -16,7 +17,8 @@ export default async function Home() {
       <main className={`${styles.main}`}>
 
         <Hero />
-        <MainRepairCards />
+        <Contact />
+        {/* <MainRepairCards /> */}
         {/* <Gallery /> */}
         <br/>
       </main>

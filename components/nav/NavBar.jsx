@@ -37,7 +37,8 @@ export default function NavBar() {
           priority
         /> */}
 
-        <h3 className={`${pressStart.className}`} >Rojas Repair & Refurbish</h3>
+        {/* <h3 className={`${pressStart.className}`} >Rojas Repair & Refurbish</h3> */}
+        <h3 className={``} >Rojas Repair & Refurbish</h3>
 
       </div>
       <div className={styles.icons}>
