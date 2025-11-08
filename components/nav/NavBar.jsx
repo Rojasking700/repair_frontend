@@ -21,9 +21,9 @@ export default function NavBar() {
     <nav className={`${styles.NavBar}`}>
 
       <div className={`${styles.links}`} >
-        <Link href={`#`} >Home</Link>
+        {/* <Link href={`#`} >Home</Link> */}
         {/* <Link href={`#`} >Qoute</Link> */}
-        <Link href={`#`} >Contact</Link>
+        {/* <Link href={`#`} >Contact</Link> */}
         {/* <Link href={`#`} >About</Link> */}
         {/* <Link href={`#`} >Contact</Link> */}
       </div>

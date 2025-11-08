@@ -52,8 +52,9 @@
           width: 100%;
           display: flex;
           flex-flow: row wrap;
-          justify-content: space-between;
+          justify-content: flex-start;
           align-items: flex-start;
+          gap: 10px;
 
           .SocialIcon {
             // #ecdece
