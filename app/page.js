@@ -15,7 +15,7 @@ export default async function Home() {
     <div className={styles.page}>
       <main className={`${styles.main}`}>
 
-        {/* <Hero /> */}
+        <Hero />
         <MainRepairCards />
         {/* <Gallery /> */}
         <br/>

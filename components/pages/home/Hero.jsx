@@ -7,7 +7,8 @@ export default function Hero(){
     <div className={styles.heroContainer}>
       <Image 
         // src={'/stockImgs/BrokenPhoneStreet.jpg'}
-        src={'/hero/Crop_Repair_Hero.png'}
+        // src={'/hero/Crop_Repair_Hero.png'}
+        src={'/hero/iPhones-unsplash.jpg'}
         alt="pexels-fede-roveda-16-9"
         width={1200}
         height={600}
@@ -16,13 +17,13 @@ export default function Hero(){
         className={styles.img}
       />
       
-      {/* <div className={styles.titleContainer}>
-        <h1>Ride the Arctic.</h1>
-        <h2>Own the Slopes.</h2>
-        <Link href={`/`} >
-          Shop Now
-        </Link>
-      </div> */}
+      <div className={styles.titleContainer}>
+        <h1>Restore your device</h1>
+        {/* <h2>A new life</h2> */}
+        {/* <Link href={`/`} >
+          Repair Now
+        </Link> */}
+      </div>
     </div>
   )
 }
