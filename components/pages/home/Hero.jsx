@@ -15,6 +15,7 @@ export default function Hero(){
         // fill={true}
         objectFit={"cover"}
         className={styles.img}
+        priority="preload"
       />
       
       <div className={styles.titleContainer}>
