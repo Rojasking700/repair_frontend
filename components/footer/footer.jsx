@@ -49,13 +49,15 @@ export default function Footer() {
                     className={styles.SocialIcon}
                   />
                 </Link>
-                <Image
-                  src={YoutubeIcon}
-                  alt="Youtube"
-                  width={30}
-                  height={30}
-                  className={styles.SocialIcon}
-                />
+                <Link href={`https://www.youtube.com/@gabrielrojas2596/shorts`} target="_blank" rel="noopener noreferrer">
+                  <Image
+                    src={YoutubeIcon}
+                    alt="Youtube"
+                    width={30}
+                    height={30}
+                    className={styles.SocialIcon}
+                  />
+                </Link>
                 {/* <Image
                   src={XIcon}
                   alt="X"
