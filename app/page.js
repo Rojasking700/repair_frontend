@@ -20,7 +20,22 @@ export default async function Home() {
         <Contact />
         {/* <MainRepairCards /> */}
         {/* <Gallery /> */}
-        <br/>
+
+        <div>
+          <h1>Request A Quote!</h1>
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLScPlf4PXQADIrYFPt_elmW0wYU52gmRkHg2GyB_leEzr-zzZw/viewform?usp=dialog"
+            width="100%"
+            height="500px"
+            frameBorder="0"
+            marginHeight="0"
+            marginWidth="0"
+          >
+            Loading...
+          </iframe>
+        </div>
+        <br />
+
       </main>
 
     </div>
