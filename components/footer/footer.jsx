@@ -31,13 +31,15 @@ export default function Footer() {
               <p>Bring your device back to life</p>
               {/* <p>Memories made unforgettable.</p> */}
               <div className={styles.SocialIcons}>
-                <Image
-                  src={InstagramIcon}
-                  alt="Instagram"
-                  width={30}
-                  height={30}
-                  className={styles.SocialIcon}
-                />
+                <Link href={`https://www.instagram.com/rojasrepairrefurbish/`} target="_blank" rel="noopener noreferrer">
+                  <Image
+                    src={InstagramIcon}
+                    alt="Instagram"
+                    width={30}
+                    height={30}
+                    className={styles.SocialIcon}
+                  />
+                </Link>
                 <Link href={`https://www.facebook.com/profile.php?id=61582216487618`} target="_blank" rel="noopener noreferrer">
                   <Image
                     src={FacebookIcon}
