@@ -22,10 +22,10 @@ export default function Footer() {
             <div className={styles.FooterLeftSection}>
               <Image
                 // src="/logo/NorthPeakLogo1_off_white.png"
-                src="/logo/NorthPeakLogo2_off_white.png"
+                src="/logo/RRR_No_Bg.png"
                 alt="North Peak logo"
                 width={200}
-                height={59}
+                height={90}
                 className={styles.FooterLogo}
               />
               <p>Bring your device back to life</p>
