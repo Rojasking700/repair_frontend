@@ -25,7 +25,7 @@ export default function Footer() {
                 src="/logo/RRR_No_Bg.png"
                 alt="North Peak logo"
                 width={200}
-                height={90}
+                height={100}
                 className={styles.FooterLogo}
               />
               <p>Bring your device back to life</p>
