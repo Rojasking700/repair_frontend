@@ -2,7 +2,8 @@ import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/nav/NavBar";
 import Footer from "~/components/footer/footer";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -114,6 +115,8 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
       </body>
+      <SpeedInsights/>
+      <Analytics/>
     </html>
   );
 }
