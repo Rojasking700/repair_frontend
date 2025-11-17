@@ -4,7 +4,7 @@ import styles from '~/scss/pages/Home/Hero.module.scss'
 
 export default function Hero(){
   return (
-    <div className={styles.heroContainer}>
+    <div className={styles.heroContainer} style={{'overflow': 'clip'}}>
       <Image 
         // src={'/stockImgs/BrokenPhoneStreet.jpg'}
         // src={'/hero/Crop_Repair_Hero.png'}
@@ -16,6 +16,7 @@ export default function Hero(){
         objectFit={"cover"}
         className={styles.img}
         priority="preload"
+        style={{'overflow': 'clip'}}
       />
       
       <div className={styles.titleContainer}>
