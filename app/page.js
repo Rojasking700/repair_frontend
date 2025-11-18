@@ -68,17 +68,6 @@ export default async function Home() {
         <Contact />
         {/* <MainRepairCards /> */}
         {/* <Gallery /> */}
-        {/* <video width="320" height="240" controls preload="none">
-          <source src="https://www.youtube.com/shorts/mqMWK01gWy4" type="video/mp4" />
-          <track
-            src="https://www.youtube.com/shorts/mqMWK01gWy4"
-            kind="subtitles"
-            srcLang="en"
-            label="English"
-          />
-          Your browser does not support the video tag.
-        </video> */}
-
 
         <div>
           <h1>Request A Quote!</h1>
@@ -94,6 +83,41 @@ export default async function Home() {
           </iframe>
         </div>
         <br />
+        <div>
+          <video
+            controls
+            preload="metadata"
+            style={{ maxWidth: 300, borderRadius: 10 }}
+            playsInline
+            muted
+          >
+            <source src="/videos/video.mp4" type="video/mp4" />
+            Sorry, your browser doesnt support embedded videos.
+          </video>
+          <video
+            controls
+            preload="metadata"
+            style={{ maxWidth: 300, borderRadius: 10 }}
+            playsInline
+            muted
+          >
+            <source src="/videos/video1.mp4" type="video/mp4" />
+            Sorry, your browser doesnt support embedded videos.
+          </video>
+          <video
+            controls
+            preload="metadata"
+            style={{ maxWidth: 300, borderRadius: 10 }}
+            playsInline
+            muted
+          >
+            <source src="/videos/video2.mp4" type="video/mp4" />
+            Sorry, your browser doesnt support embedded videos.
+          </video>
+
+        </div>
+
+
 
       </main>
       <Script
