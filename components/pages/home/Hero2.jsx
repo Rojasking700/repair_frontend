@@ -16,7 +16,12 @@ export default function Hero2() {
           <li>Fair Pricing</li>
           <li>Quality Service</li>
         </ul>
-        <button>Request a qoute</button>
+        <br />
+        {/* <button>Request a qoute</button> */}
+        <Link href="#RequestQuote" className={styles.hero2ContainerLeftLinkButton} >
+          Request a qoute
+        </Link>
+        {/* <a  className={styles.hero2ContainerLeftLinkButton} >Request a qoute</a> */}
       </div>
       <div>
 

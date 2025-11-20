@@ -8,6 +8,7 @@
   align-items: center;
   color: #ffffff;
   padding: 25px;
+  border-radius: 10px;
 
   .hero2ContainerLeft {
     h1 {
@@ -30,14 +31,14 @@
       }
     }
 
-    button {
+    .hero2ContainerLeftLinkButton {
       background-color: #126e67;
 
       padding: 10px 20px;
       border: none;
       border-radius: 5px;
 
-      margin: 20px 0px;
+      // margin: 50px 0px;
       font-weight: 600;
       font-size: 1.25em;
       color: #ffffff;
