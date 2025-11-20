@@ -4,6 +4,7 @@ import Contact from "~/components/pages/home/Contact";
 import FeaturedProducts from "~/components/pages/home/FeatruedProducts";
 import Gallery from "~/components/pages/home/Gallery";
 import Hero from "~/components/pages/home/Hero";
+import Hero2 from "~/components/pages/home/Hero2";
 import MainRepairCards from "~/components/pages/home/MainRepairCards";
 import styles from '~/scss/pages/Home/Page.module.scss'
 
@@ -64,12 +65,13 @@ export default async function Home() {
     <div className={styles.page}>
       <main className={`${styles.main}`}>
 
-        <Hero />
+        {/* <Hero /> */}
+        <Hero2 />
         <Contact />
         {/* <MainRepairCards /> */}
         {/* <Gallery /> */}
 
-        <div>
+        <div id="RequestQuote">
           <h1>Request A Quote!</h1>
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLScPlf4PXQADIrYFPt_elmW0wYU52gmRkHg2GyB_leEzr-zzZw/viewform?usp=dialog"

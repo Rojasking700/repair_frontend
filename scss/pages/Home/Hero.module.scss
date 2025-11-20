@@ -1,5 +1,52 @@
 @use '../../variable.scss' as *;
 
+.hero2Container {
+  background-color: #092a2c;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+
+  .hero2ContainerLeft {
+    h1 {
+      font-size: 5em;
+      letter-spacing: -3px;
+      line-height: 1em;
+    }
+
+    h3 {
+      font-size: 2em;
+      letter-spacing: -1px;
+      line-height: 1em;
+      font-weight: 500;
+    }
+
+    ul {
+      li {
+        font-size: 1.4em;
+        list-style-position: inside;
+      }
+    }
+
+    .hero2ContainerLeftLinkButton {
+      background-color: #126e67;
+
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+
+      // margin: 50px 0px;
+      font-weight: 600;
+      font-size: 1.25em;
+      color: #ffffff;
+    }
+
+  }
+}
+
 .heroContainer {
   display: flex;
   align-items: center;
