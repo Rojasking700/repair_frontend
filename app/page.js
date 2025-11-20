@@ -83,7 +83,7 @@ export default async function Home() {
           </iframe>
         </div>
         <br />
-        <div>
+        {/* <div>
           <video
             controls
             preload="metadata"
@@ -115,7 +115,7 @@ export default async function Home() {
             Sorry, your browser doesnt support embedded videos.
           </video>
 
-        </div>
+        </div> */}
 
 
 

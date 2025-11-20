@@ -11,8 +11,8 @@
     flex-basis: 33.33%;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-end;
     // text-transform: uppercase;
   }
   .links {

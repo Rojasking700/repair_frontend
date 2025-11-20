@@ -20,25 +20,18 @@ export default function NavBar() {
   return (
     <nav className={`${styles.NavBar}`}>
 
-      <div className={`${styles.links}`} >
-        {/* <Link href={`#`} >Home</Link> */}
-        {/* <Link href={`#`} >Qoute</Link> */}
-        {/* <Link href={`#`} >Contact</Link> */}
-        {/* <Link href={`#`} >About</Link> */}
-        {/* <Link href={`#`} >Contact</Link> */}
-      </div>
       <div className={styles.logo}>
-        {/* <Image
+        <Image
           // src="/logo/NorthPeakLogo1.png"
-          src="/logo/RRR_logo.png"
-          alt="North Peak logo"
+          src="/logo/RRR_No_Bg.png"
+          alt="Rojas Repair & Refurbish logo"
           width={160}
-          height={90}
+          height={75}
           priority
-        /> */}
+        />
 
+        {/* <h3 className={``} >Rojas Repair & Refurbish</h3> */}
         {/* <h3 className={`${pressStart.className}`} >Rojas Repair & Refurbish</h3> */}
-        <h3 className={``} >Rojas Repair & Refurbish</h3>
 
       </div>
       <div className={styles.icons}>
@@ -64,6 +57,17 @@ export default function NavBar() {
           priority
         /> */}
 
+      </div>
+      <div className={`${styles.links}`} >
+        {/* <Link href={`#`} >Services</Link> */}
+        {/* <Link href={`#`} >Pricing</Link> */}
+        {/* <Link href={`#`} >Reviews</Link> */}
+        {/* <Link href={`#`} >Book</Link> */}
+        {/* <Link href={`#`} >Home</Link> */}
+        {/* <Link href={`#`} >Qoute</Link> */}
+        {/* <Link href={`#`} >Contact</Link> */}
+        {/* <Link href={`#`} >About</Link> */}
+        {/* <Link href={`#`} >Contact</Link> */}
       </div>
     </nav>
   )
