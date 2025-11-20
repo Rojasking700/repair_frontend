@@ -30,8 +30,11 @@ export default function Hero2() {
           height={500}
           // fill={true}
           objectFit={"cover"}
-          className={styles.img}
+          className={`${styles.img}`} 
           priority="preload"
+           sizes="(max-width: 480px) 200px,
+         (max-width: 1200px) 50vw,
+         33vw"
         />
       </div>
 
