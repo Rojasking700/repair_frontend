@@ -36,8 +36,8 @@ export default function MainRepairCards({ collection }) {
 
   return (
     <div>
-      <h2>Choose device</h2>
-      <div className={`${styles.homeCollection} embla__viewport`}>
+      <h2>All Devices Serviced</h2>
+      <div className={`${styles.homeCollection} `}>
         {
           shopProducts.map((prod) => (<ProductCard product={prod} key={prod.title} />))
         }
