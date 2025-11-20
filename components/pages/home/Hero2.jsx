@@ -5,15 +5,18 @@ import styles from '~/scss/pages/Home/Hero.module.scss'
 export default function Hero2() {
   return (
     <div className={styles.hero2Container} >
-      <div>
-        <h1>Give Your Tech Another Life.</h1>
-        <h3>Fast, Professional phone, tablet and computer repair -without the upsell</h3>
+      <div className={styles.hero2ContainerLeft} >
+        <h1>Give Your Tech</h1>
+        <h1>Another Life.</h1>
+        <br />
+        <h3>Fast, Professional phone, tablet and computer repair</h3>
+        <br />
         <ul>
           <li>Honest Daignostics</li>
           <li>Fair Pricing</li>
           <li>Quality Service</li>
         </ul>
-        <button>Book a repair</button>
+        <button>Book a Repair</button>
       </div>
       <div>
 
