@@ -6,6 +6,7 @@ import Gallery from "~/components/pages/home/Gallery";
 import Hero from "~/components/pages/home/Hero";
 import Hero2 from "~/components/pages/home/Hero2";
 import MainRepairCards from "~/components/pages/home/MainRepairCards";
+import Services from "~/components/pages/home/Services";
 import styles from '~/scss/pages/Home/Page.module.scss'
 
 export default async function Home() {
@@ -65,10 +66,10 @@ export default async function Home() {
     <div className={styles.page}>
       <main className={`${styles.main}`}>
 
-        {/* <Hero /> */}
         <Hero2 />
+        <MainRepairCards />
+        {/* <Services /> */}
         <Contact />
-        {/* <MainRepairCards /> */}
         {/* <Gallery /> */}
 
         <div id="RequestQuote">

@@ -17,19 +17,17 @@ export default function Hero2() {
           <li>Quality Service</li>
         </ul>
         <br />
-        {/* <button>Request a qoute</button> */}
         <Link href="#RequestQuote" className={styles.hero2ContainerLeftLinkButton} >
           Request a qoute
         </Link>
-        {/* <a  className={styles.hero2ContainerLeftLinkButton} >Request a qoute</a> */}
       </div>
       <div>
 
         <Image
           src={'/devices/BrokenPhone.png'}
           alt="pexels-fede-roveda-16-9"
-          width={300}
-          height={600}
+          width={250}
+          height={500}
           // fill={true}
           objectFit={"cover"}
           className={styles.img}
