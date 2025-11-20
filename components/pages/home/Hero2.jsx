@@ -16,7 +16,7 @@ export default function Hero2() {
           <li>Fair Pricing</li>
           <li>Quality Service</li>
         </ul>
-        <button>Book a Repair</button>
+        <button>Request a qoute</button>
       </div>
       <div>
 
