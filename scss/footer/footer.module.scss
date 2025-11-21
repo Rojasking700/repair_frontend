@@ -1,5 +1,5 @@
 .FooterOuter {
-  background-color: #0B0F14;
+  background-color: #001111;
 
   margin-left: calc(-50vw + 50%); // stretch left
   margin-right: calc(-50vw + 49.5%); // stretch right
@@ -7,7 +7,7 @@
   padding: 20px 0px;
 
   .FooterInner {
-    max-width: 1800px;
+    max-width: 1200px;
     width: 93%;
     margin: 0px auto;
 
@@ -70,8 +70,8 @@
 
 
   * {
-    // color: #C9D1D9;
-    color: #ecdece;
+    // color: #ecdece;
+    color: #fff;
   }
 
   .topCommentContainer {

@@ -84,7 +84,7 @@ export default async function Home() {
             Loading Form...
           </iframe>
         </div>
-        <Contact />
+        {/* <Contact /> */}
         <br />
         {/* <div>
           <video
