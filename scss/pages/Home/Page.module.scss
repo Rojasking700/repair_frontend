@@ -79,6 +79,10 @@
     padding: 25px;
     border-radius: 10px;
     flex-grow: 1;
+    h3{
+      font-weight: 600;
+    }
+
   }
 
   .ServiceComponentRight {
@@ -89,12 +93,10 @@
     flex-grow: 1;
 
 
-    ol {
-      li {
-        // font-size: 1.4em;
-        list-style-position: inside;
-      }
-    }
+  }
+
+  li {
+    list-style-position: inside;
   }
 
   .ServiceComponentLink {
