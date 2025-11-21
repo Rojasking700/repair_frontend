@@ -2,11 +2,11 @@
 import styles from '~/scss/pages/Home/Page.module.scss'
 import Link from 'next/link';
 
-export default function Services({ collection }) {
+export default function Services() {
 
   return (
-    <div>
-      <div>
+    <div className={styles.ServiceComponent}>
+      <div className={styles.ServiceComponentLeft}>
         <h2>Why Choose Rojas Repair & Refurbish?</h2>
         <h3>Transparent Pricing:</h3>
         <p>All repairs include a base service fee of <strong> $50 </strong> <strong> + </strong> cost of <strong>parts</strong></p>
@@ -17,11 +17,11 @@ export default function Services({ collection }) {
           get the full price including parts
         </p>
       </div>
-      <div>
+      <div className={styles.ServiceComponentRight}>
         <h2>How It Works</h2>
         <ol>
           <li>
-            Fill out the <Link href={`#RequestQuote`}> Request a Quote form</Link>.
+            Fill out the <Link href={`#RequestQuote`} className={styles.ServiceComponentLink}> Request a Quote form</Link>.
           </li>
           <li>Schedule a drop off time.</li>
           <li>Repairs done carefully, tested thoroughly.</li>
