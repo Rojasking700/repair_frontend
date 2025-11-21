@@ -7,6 +7,7 @@ import Hero from "~/components/pages/home/Hero";
 import Hero2 from "~/components/pages/home/Hero2";
 import MainRepairCards from "~/components/pages/home/MainRepairCards";
 import Services from "~/components/pages/home/Services";
+import VideosComponent from "~/components/pages/home/VideosComponent";
 import styles from '~/scss/pages/Home/Page.module.scss'
 
 export default async function Home() {
@@ -84,43 +85,8 @@ export default async function Home() {
             Loading Form...
           </iframe>
         </div>
-        {/* <Contact /> */}
-        <br />
-        {/* <div>
-          <video
-            controls
-            preload="metadata"
-            style={{ maxWidth: 300, borderRadius: 10 }}
-            playsInline
-            muted
-          >
-            <source src="/videos/video.mp4" type="video/mp4" />
-            Sorry, your browser doesnt support embedded videos.
-          </video>
-          <video
-            controls
-            preload="metadata"
-            style={{ maxWidth: 300, borderRadius: 10 }}
-            playsInline
-            muted
-          >
-            <source src="/videos/video1.mp4" type="video/mp4" />
-            Sorry, your browser doesnt support embedded videos.
-          </video>
-          <video
-            controls
-            preload="metadata"
-            style={{ maxWidth: 300, borderRadius: 10 }}
-            playsInline
-            muted
-          >
-            <source src="/videos/video2.mp4" type="video/mp4" />
-            Sorry, your browser doesnt support embedded videos.
-          </video>
-
-        </div> */}
-
-
+        
+        <VideosComponent />
 
       </main>
       <Script
