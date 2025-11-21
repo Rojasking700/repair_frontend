@@ -68,8 +68,7 @@ export default async function Home() {
 
         <Hero2 />
         <MainRepairCards />
-        {/* <Services /> */}
-        <Contact />
+        <Services />
         {/* <Gallery /> */}
 
         <div id="RequestQuote">
@@ -85,6 +84,7 @@ export default async function Home() {
             Loading Form...
           </iframe>
         </div>
+        <Contact />
         <br />
         {/* <div>
           <video

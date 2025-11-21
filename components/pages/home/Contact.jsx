@@ -17,7 +17,7 @@ export default function Contact({ collection }) {
 
   return (
     <div>
-      <h1>Contact for qoute</h1>
+      <h1>Contact Info</h1>
       <h2>(262)-909-5892</h2>
       <h2>grojaspiano@gmail.com</h2>
     </div>

@@ -65,3 +65,39 @@
     border-radius: $border-radius;
   }
 }
+
+.ServiceComponent {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 25px;
+
+  .ServiceComponentLeft {
+    background-color: #092a2c;
+    color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    flex-grow: 1;
+  }
+
+  .ServiceComponentRight {
+    background-color: #092a2c;
+    color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    flex-grow: 1;
+
+
+    ol {
+      li {
+        // font-size: 1.4em;
+        list-style-position: inside;
+      }
+    }
+  }
+
+  .ServiceComponentLink {
+    color: #2dffed;
+  }
+}
