@@ -79,7 +79,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className={styles.FooterLeft}>
+          {/* <div className={styles.FooterLeft}> */}
             {/* <div className={styles.FooterLeftSection}>
               <h3>Shop</h3>
               <Link href={'#'}>New Arrivals</Link>
@@ -105,10 +105,10 @@ export default function Footer() {
               <Link href={'#'}>Affiliates</Link>
             </div> */}
 
-          </div>
-          <div className={styles.FooterLeft}>
+          {/* </div> */}
+          {/* <div className={styles.FooterLeft}>
 
-          </div>
+          </div> */}
         </div>
 
       </div>

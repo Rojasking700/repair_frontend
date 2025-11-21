@@ -27,7 +27,7 @@ export default function NavBar() {
           alt="Rojas Repair & Refurbish logo"
           width={160}
           height={75}
-          priority
+          priority="preload"
         />
 
         {/* <h3 className={``} >Rojas Repair & Refurbish</h3> */}

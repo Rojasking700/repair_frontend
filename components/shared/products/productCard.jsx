@@ -20,6 +20,7 @@ export default function ProductCard({ product }) {
           width={250}
           height={250}
           className={styles.thumbnail}
+          priority="preload"
         />
 
         <div>
