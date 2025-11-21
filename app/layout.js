@@ -92,18 +92,18 @@ export const metadata = {
   icons: {
     icon: [
       { url: "/favicon.ico" },
-      { url: "/icon-32.png", sizes: "32x32", type: "image/png" },
-      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      // { url: "/icon-32.png", sizes: "32x32", type: "image/png" },
+      // { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
     ],
-    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+    // apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
   },
   category: "technology",
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    viewportFit: "cover",
-    themeColor: "#0f172a",
-  },
+  // viewport: {
+  //   width: "device-width",
+  //   initialScale: 1,
+  //   viewportFit: "cover",
+  //   themeColor: "#0f172a",
+  // },
 };
 
 export default function RootLayout({ children }) {

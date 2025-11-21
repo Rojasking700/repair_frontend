@@ -9,13 +9,16 @@ export default function Services() {
       <div className={styles.ServiceComponentLeft}>
         <h2>Why Choose Rojas Repair & Refurbish?</h2>
         <h3>Transparent Pricing:</h3>
-        <p>All repairs include a base service fee of <strong> $50 </strong> <strong> + </strong> cost of <strong>parts</strong></p>
-        <p>This covers diagnostics, labor, cleaning, and full device testing.</p>
-        <p>
+        <ul>
+        <li>All repairs include a base service fee of <strong> $50 </strong> <strong> + </strong> cost of <strong>parts</strong></li>
+        <li>This covers diagnostics, labor, cleaning, and full device testing.</li>
+        <li>
           Fill out the
-          <Link href={`#RequestQuote`}> Request a Quote form</Link>
-          get the full price including parts
-        </p>
+          <Link href={`#RequestQuote`} className={styles.ServiceComponentLink}> Request a Quote form </Link>
+          and get the full price including parts
+        </li>
+
+        </ul>
       </div>
       <div className={styles.ServiceComponentRight}>
         <h2>How It Works</h2>
