@@ -8,6 +8,7 @@ import InstagramIcon from '~/public/icons/SocialMedia/instagram-brands-solid-ful
 import TikTokIcon from '~/public/icons/SocialMedia/tiktok-brands-solid-full.svg'
 import XIcon from '~/public/icons/SocialMedia/x-twitter-brands-solid-full.svg'
 import YoutubeIcon from '~/public/icons/SocialMedia/youtube-brands-solid-full.svg'
+import Contact from "../pages/home/Contact";
 
 export default function Footer() {
 
@@ -20,16 +21,18 @@ export default function Footer() {
         <div className={styles.secondContainer}>
           <div className={styles.FooterLeft}>
             <div className={styles.FooterLeftSection}>
-              <Image
+              {/* <Image
                 // src="/logo/NorthPeakLogo1_off_white.png"
                 src="/logo/RRR_No_Bg.png"
-                alt="North Peak logo"
+                alt="Rojas Repair & refurbish Logo"
                 width={200}
                 height={100}
                 className={styles.FooterLogo}
-              />
-              <p>Bring your device back to life</p>
-              {/* <p>Memories made unforgettable.</p> */}
+              /> */}
+              <Contact />
+
+              {/* <p>Bring your device back to life</p> */}
+
               <div className={styles.SocialIcons}>
                 <Link href={`https://www.instagram.com/rojasrepairrefurbish/`} target="_blank" rel="noopener noreferrer">
                   <Image
