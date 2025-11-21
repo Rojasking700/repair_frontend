@@ -68,7 +68,7 @@ export default async function Home() {
 
         <Hero2 />
         <MainRepairCards />
-        {/* <Services /> */}
+        <Services />
         <Contact />
         {/* <Gallery /> */}
 
