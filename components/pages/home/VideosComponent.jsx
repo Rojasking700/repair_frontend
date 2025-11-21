@@ -28,9 +28,9 @@ export default function VideosComponent() {
       <div className={`${styles.homeCollection} `}>
         {
           vidsArr.map((vid, index) => (
-            <div>
+            <div  key={index}>
               <video
-                key={index}
+              
                 controls
                 preload="metadata"
                 style={{ maxWidth: 300, borderRadius: 10 }}
