@@ -28,7 +28,7 @@ export const metadata = {
     template: "%s | Rojas Repair & Refurbish",
   },
   description:
-    "Professional device repair and refurbishing. Screen replacements, battery swaps, water-damage recovery, diagnostics, and more.", //Fast turnaround and warranty-backed service.
+    "Professional device repair and refurbishing. Screen replacements, battery swaps, water-damage, diagnostics, and more.", //Fast turnaround and warranty-backed service.
   keywords: [
     "phone repair",
     "iPhone screen replacement",
@@ -37,7 +37,6 @@ export const metadata = {
     "laptop repair",
     "battery replacement",
     "charging port repair",
-    "data recovery",
     "tech refurbish",
     "electronics repair",
     "Rojas Repair",
