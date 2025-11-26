@@ -4,6 +4,7 @@ import NavBar from "@/components/nav/NavBar";
 import Footer from "~/components/footer/footer";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -76,14 +77,6 @@ export const metadata = {
     ],
     locale: "en_US",
   },
-  // twitter: {
-  //   card: "summary_large_image",
-  //   title: "Rojas Repair & Refurbish",
-  //   description:
-  //     "Professional device repair and refurbishing with fast turnaround and warranty-backed service.",
-  //   images: ["https://rojasrepair.com/logo/RRR_No_Bg.png"],
-  //   creator: "@your_handle",
-  // },
   robots: {
     index: true,
     follow: true,
@@ -97,25 +90,21 @@ export const metadata = {
     // apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
   },
   category: "technology",
-  // viewport: {
-  //   width: "device-width",
-  //   initialScale: 1,
-  //   viewportFit: "cover",
-  //   themeColor: "#0f172a",
-  // },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      {/* <body className={` ${geistSans.variable} ${geistMono.variable}`}> */}
+
       <body className={` ${poppins.variable} `}>
         <NavBar />
         {children}
         <Footer />
       </body>
-      <SpeedInsights/>
-      <Analytics/>
+
+      <GoogleAnalytics gaId="G-GTT4JK6FMT" />
+      <SpeedInsights />
+      <Analytics />
     </html>
   );
 }
