@@ -8,7 +8,7 @@ export default function VideosComponent() {
     {
       url: `https://xmp8qga3xf0pw7me.public.blob.vercel-storage.com/videos/612e6dc528d6b624e572d23666163345.mp4`,
       title: '$50 charing port replacement',
-      subText: 'iPhone 13 Midnight',
+      subText: 'iPhone 13 Pink',
     },
     {
       url: `https://xmp8qga3xf0pw7me.public.blob.vercel-storage.com/videos/1707ce84d5a8374d0d91cc22d3bd40c4.MP4`,
