@@ -12,7 +12,7 @@ export default function ProductCard({ product }) {
   }
 
   return (
-    <Link href={`/${product.slug}`}>
+    // <Link href={`/${product.slug}`}>
       <div className={styles.productCardContainer}>
         <Image
           src={product?.imgUrl}
@@ -32,6 +32,6 @@ export default function ProductCard({ product }) {
 
 
       </div>
-    </Link>
+    // </Link>
   )
 }
