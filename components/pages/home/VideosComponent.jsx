@@ -6,6 +6,11 @@ export default function VideosComponent() {
 
   let vidsArr = [
     {
+      url: `https://xmp8qga3xf0pw7me.public.blob.vercel-storage.com/videos/612e6dc528d6b624e572d23666163345.mp4`,
+      title: '$50 charing port replacement',
+      subText: 'iPhone 13 Midnight',
+    },
+    {
       url: `https://xmp8qga3xf0pw7me.public.blob.vercel-storage.com/videos/1707ce84d5a8374d0d91cc22d3bd40c4.MP4`,
       title: '$120 back glass replacement',
       subText: 'iPhone 15 Blue',
@@ -32,16 +37,17 @@ export default function VideosComponent() {
               <video
               
                 controls
-                preload="metadata"
-                style={{ maxWidth: 300, borderRadius: 10 }}
+                preload="auto"
+                style={{ maxWidth: 290, borderRadius: 10 }}
                 playsInline
                 muted
               >
-                <source src={vid.url} type="video/mp4" />
+                <source src={vid.url} type="video/mp4"  />
                 Sorry, your browser doesnt support embedded videos.
               </video>
               <h4>{vid.title}</h4>
               <p>{vid.subText}</p>
+              <p className={styles.smallDisclaimer} >(Prices vary)</p>
             </div>
           ))
         }
